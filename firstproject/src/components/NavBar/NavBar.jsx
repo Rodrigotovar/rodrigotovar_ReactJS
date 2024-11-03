@@ -7,9 +7,10 @@ function NavBar() {
                 <button className="btn btn-outline-success me-2" type="button">Home</button>
                 <button className="btn btn-sm btn-outline-secondary" type="button">Disco</button>
                 <button className="btn btn-sm btn-outline-secondary" type="button">Ropa</button>
-                <button className="btn btn-sm btn-outline-secondary" type="button">Soporte</button>
+                <button className="btn btn-sm btn-outline-secondary" type="button">Sporte</button>
+                <button className="btn btn-sm btn-outline-secondary" type="button"><CardWidget amount={6} /></button>
+                
             </form>
-            <CardWidget />
         </nav>
 
     )

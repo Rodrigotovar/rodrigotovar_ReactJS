@@ -1,5 +1,5 @@
 
-function CardWidget() {
+function CardWidget({amount}) {
     return (
         <a className="nav-link">
             <svg
@@ -13,7 +13,7 @@ function CardWidget() {
                 <path d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .485.379L2.89 5H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 14H4a.5.5 0 0 1-.491-.408L1.01 2H.5a.5.5 0 0 1-.5-.5zM3.14 6l1.25 6H12.5l1.25-6H3.14zM5 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm6 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
             </svg>
 
-            <span className="badge text-bg-secondary">4</span>
+            <span className="badge text-bg-secondary">{amount}</span>
         </a>
     )
 }
