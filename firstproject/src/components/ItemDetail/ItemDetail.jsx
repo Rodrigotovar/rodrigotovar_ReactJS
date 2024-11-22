@@ -14,11 +14,11 @@ export default function ItemDetail({name, img, description, category, price, sto
 
             <div className="card-body">
                 <p>{description}</p>
-                <p>Category: {category}</p>
-                <p>Pecio: $ {price}</p>
+                <p>Categoria: {category}</p>
+                <p>Pecio: $   {price}</p>
                 <p>Disponible: {stock}</p>
             </div>
-            <Link to="/cart" >Finalizar compra</Link>
+            <Link to="/cart" > <button>Finalizar compra</button></Link>
         </div>
     </div>
   )

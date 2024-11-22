@@ -15,7 +15,7 @@ export default function ItemListContainer() {
 
   return (
     <div>
-      <h2>Vestir y sentirse cómo uno es</h2>
+      <h2>Bienvenido a la tienda</h2>
       <ItemList products={products} />
     </div>
   );
