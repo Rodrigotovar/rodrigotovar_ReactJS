@@ -3,6 +3,7 @@ import CartWidget from "../CartWidget/CartWidget";
 
 export default function NavBar({title}) {
     return (
+      
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
